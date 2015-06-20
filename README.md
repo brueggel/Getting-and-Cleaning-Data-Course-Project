@@ -5,7 +5,7 @@ date: "Friday, June 19, 2015"
 output: html_document
 ---
 #This file describes the scripts designed to create tidy data set stored in mean_set.txt.
-1. Scripts require following pacages: "stringr"
+1. Scripts require following packages: "stringr"
 2. Read in "R" text files containing training set data: X_train.txt and test set data: X_test.txt using read.table() function:
 training_set<- read.table("X_train.txt", header=F) #read training set data 
 test_set<- read.table("X_test.txt", header=F) #read test set data
