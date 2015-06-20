@@ -5,7 +5,7 @@ date: "Wednesday, June 17, 2015"
 output: html_document
 
 The training and the test sets from "Human Activity Recognition Using Smartphones Dataset" obtained from:
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones were merged to create one data set. The measurements on the mean and standard deviation for each measurement were extracted. Variables were renamed as follow:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones were merged to create one data set. The measurements on the mean and standard deviation for each measurement were extracted. Variables were renamed. Data were subset by subject and activity and the average of each variable for each activity and each subject was calculated and saved in the file "mean_set".
 
 ###variables  : description                
 
@@ -97,3 +97,4 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 "fbodybodygyromagstd" :standard deviation of the Fast Fourier Transform of the magnitude of the body angular velocity             
 "fbodybodygyrojerkmagstd" :standard deviation of the Fast Fourier Transform of the time derivative of the magnitude of the body angular velocity     
 "subject" :index of the subject who performed the activity                
+
